@@ -1,27 +1,31 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MenuManager : MonoBehaviour
+public class MenuController : MonoBehaviour
 {
-    public void StartNewGame()
+    public void StartGame()
     {
-        SceneManager.LoadScene("SampleScene");  // Put your real scene name here
+        // Load the Main Gameplay scene
+        SceneManager.LoadScene("MAIN");
     }
 
-    public void StartVisitorMode()
+    public void OpenVisitors()
     {
-        SceneManager.LoadScene("SampleScene");  // Same scene for now
+        // Load the Visitor scene
+        SceneManager.LoadScene("VISITOR");
     }
 
     public void OpenSettings()
     {
-        Debug.Log("Settings clicked!");
-        // You can show a settings panel later here
+        // Optional: You can either open a Settings panel or another scene
+        Debug.Log("Settings Clicked"); // (For now, just a debug log)
+        // Or if you have a Settings scene: SceneManager.LoadScene("Settings");
     }
 
     public void QuitGame()
     {
+        // Quit the game
         Application.Quit();
-        Debug.Log("Game Closed");
+        Debug.Log("Game is exiting..."); // This will only show inside the editor
     }
 }
