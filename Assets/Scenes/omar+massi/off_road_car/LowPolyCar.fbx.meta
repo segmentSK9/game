@@ -3,7 +3,87 @@ guid: 5283302fb39de974c82acb920eaa243b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black_Metal
+    second: {fileID: 2100000, guid: 70d343b1c22b4794e925d4b3e0d0767e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarBody
+    second: {fileID: 2100000, guid: 247dc52cc11b3414da38d818f3d25665, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarBodyColorChange
+    second: {fileID: 2100000, guid: 0ab4c9513a9653c4ba6c5a26d0ebebfe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarInterior
+    second: {fileID: 2100000, guid: 2cbdfc9c65f4e9a479e5ac2b1ed2b4f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: FrontSmallLamp
+    second: {fileID: 2100000, guid: 950f36b7f7fb32e4c81cbfabef3fe4ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Fuel_Container
+    second: {fileID: 2100000, guid: 1ade640d27662e7428d5027a4dcdaebb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: HeadlightGlass
+    second: {fileID: 2100000, guid: 5d9e9a9ddd444244db7da1f693762c68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: RedLamp
+    second: {fileID: 2100000, guid: f7e5db10c699fd044807c9a2c8bfd01d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rims
+    second: {fileID: 2100000, guid: 2ec066ef0a13a714ba12b96b32753d68, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rocks
+    second: {fileID: 2100000, guid: e12fb338643142246a73235ddd6356eb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: SandyGround
+    second: {fileID: 2100000, guid: 311f8b0a4beaebd4a94ca53d2072767a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screw_Metal
+    second: {fileID: 2100000, guid: 7f4c822cd14fbce49bebfdcd9f33b43a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Seats
+    second: {fileID: 2100000, guid: fd762b1eef1666d4096a2950d92f4ea3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Side_Mirrors
+    second: {fileID: 2100000, guid: 1da980ce47e4c9a449b9b0fba518ba5e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Tires
+    second: {fileID: 2100000, guid: e1e0f26e7fc5abc47bf4fc6cd76a568e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: WindowGlass
+    second: {fileID: 2100000, guid: c9dfc34d694a48c44aafcbd7b507ef18, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
