@@ -74,3 +74,26 @@ public class CameraController : MonoBehaviour
 	}
 
 }
+
+
+public class ThirdPersonCamera : MonoBehaviour
+{
+    public Transform target;       // Set to the bike or capsule
+    public float distance = 5f;
+    public float height = 2f;
+    public float rotationSpeed = 3f;
+
+    float currentAngle = 0f;
+
+    void LateUpdate()
+    {
+        float mouseX = Input.GetAxis("Mouse X") * rotationSpeed;
+        currentAngle += mouseX;
+
+        Quaternion rotation = Quaternion.Euler(0, currentAngle, 0);
+        Vector3 offset = rotation * new Vector3(0, height, -distance);
+        transform.position = target.position + offset;
+
+        transform.LookAt(target);
+    }
+}
