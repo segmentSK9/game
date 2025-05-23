@@ -28,4 +28,10 @@ public class MenuController : MonoBehaviour
         Application.Quit();
         Debug.Log("Game is exiting..."); // This will only show inside the editor
     }
+      public void Cyclisme()
+    {
+        // Load the Visitor scene
+        SceneManager.LoadScene("Cyclisme");
+    }
+
 }
